@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <input type="text" class="input-field mb-3 col-12" placeholder="0">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button onclick="onClear()">AC</button>
+                    <button onclick="onDel()">DEL</button>
+                    <button>+/-</button>
+                    <button onclick="onDivision()">/</button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button onclick="onSeven()">7</button>
+                    <button onclick="onEight()">8</button>
+                    <button onclick="onNine()">9</button>
+                    <button onclick="onMultiplication()">X</button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button onclick="onFour()">4</button>
+                    <button onclick="onFive()">5</button>
+                    <button onclick="onSix()">6</button>
+                    <button onclick="onSubtraction()">-</button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button onclick="onOne()">1</button>
+                    <button onclick="onTwo()">2</button>
+                    <button onclick="onThree()">3</button>
+                    <button onclick="onAddition()">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button onclick="onModulo()">%</button>
+                    <button onclick="onZero()">0</button>
+                    <button onclick="onPoint()">.</button>
+                    <button onclick="onEqual()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
